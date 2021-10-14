@@ -1,6 +1,6 @@
 var randomNumber = 1 + Math.floor(Math.random() * 100);
-var guess =  document.getElementById('userGuess');
+var guess =  document.getElementById('userGuess').value;
 
 document.getElementById('checkGuess').addEventListener('click', function(event) {
-    // write some code here
+    if {guess == randomNumber}
 });
